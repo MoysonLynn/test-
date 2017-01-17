@@ -1,0 +1,73 @@
+#photos {
+  opacity: .88;
+}
+
+#photos img {
+  width: 30%;
+  float: left;
+  display: block;
+  margin: 2px;
+}
+
+.kader{
+  background-color: #FF4500;
+  color: white;
+  width: 900px;
+  margin: 5px auto 5px auto;
+  padding: 15px 0px 15px 0px;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+#overlay {
+  background: rgba(0,0,0, .8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin: 10% auto 0;
+  width: 550px;
+  border-radius: 5px;
+}
+
+#photos {
+  width: 100%;
+
+}
+
+#photo-gallery {
+  width: 50%;
+  margin-left: 400px;
+}
+.foto4:hover{
+  transform: skewX(100deg);
+  transform: skewY(40deg);
+  transform: skew(500deg, 10deg);
+}
+.foto3:hover{
+  transform: skewX(25deg);
+  transform: skewY(10deg);
+  transform: skew(25deg, 10deg);
+}
+.foto2:hover{
+  transform: translate(50px, 50px);
+}
+.foto5:hover{
+  transform: scaleX(2);
+}
+.foto6:hover{
+  transform:scale(2);
+}
+
+.foto1,.foto3,.foto6{
+   transition: transform 3s;
+}
+.foto1:hover {
+ transform: rotate(1080deg);
+}
